@@ -46,69 +46,84 @@ User-friendly UI with multi-session support.
                  │   LangGraph Engine   │
                  └─────────┬───────────┘
                            │
+                           
      ┌──────────────┬───────────────┬──────────────┐
      │              │               │              │
+
 ┌────▼─────┐  ┌─────▼─────┐  ┌──────▼─────┐  ┌─────▼────────┐
 │ LLM Node │  │ Search Tool│  │Stock Tool  │  │ Calculator    │
+
 └────▲─────┘  └─────▲─────┘  └──────▲─────┘  └─────▲────────┘
      │              │               │              │
+     
      └──────────────┴───────────────┴──────────────┘
                            │
+                           
                ┌───────────▼───────────┐
                │   Response Builder     │
+               
                └───────────┬───────────┘
                            │
+                           
                ┌───────────▼───────────┐
                │ Streamlit Frontend UI │
+               
                └────────────────────────┘
 
 
 🛠 Tech Stack
 
 Languages
-
 Python
 
 Core Frameworks
-
 LangGraph
-
 LangChain
-
 Streamlit
 
 Tools Used
-
 DuckDuckGo Search API
-
 Yahoo Finance API / Stock API
-
 SQLite (Persistent threads)
 
 AI Models
+
 You can use:
+
 Groq LLaMA
+
 OpenAI
+
 HuggingFace LLMs
 (or any model supported by LangChain)
+
 
 📁 Project Structure
 LangGraph-Chatbot/
 │
 ├── app.py                 # Streamlit UI
+
 ├── graph.py               # LangGraph workflow and tool-node architecture
+
 ├── tools/
-│   ├── search_tool.py     
-│   ├── stock_tool.py      
+
+│   ├── search_tool.py  
+
+│   ├── stock_tool.py 
+
 │   ├── calculator_tool.py 
+
 │
 ├── memory/
 │   └── sqlite_memory.py   # Persistent thread logic
+
 │
 ├── utils/
-│   └── helpers.py         
+│   └── helpers.py        
+
 │
 ├── README.md              # Documentation
+
 └── requirements.txt       
 
 ⚙️ Installation
@@ -126,9 +141,13 @@ streamlit run app.py
 
 🚧 Future Improvements
 Add more advanced tools (weather, news, calculator improvements)
+
 Add authentication for users
+
 Deploy on cloud (Streamlit Cloud / Render / Vercel)
+
 Add vector memory for long-term conversation
+
 Add voice input/output capabilities
 
 🤝 Contributing
@@ -139,5 +158,6 @@ For major changes, please open an issue first to discuss what you would like to 
 Developer: Anmol Asija
 📧 Email: anmolasija243@gmail.com
 🔗 LinkedIn: https://www.linkedin.com/in/anmol-asija-991748289
+
 
 
