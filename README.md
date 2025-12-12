@@ -1,7 +1,9 @@
 🚀 LangGraph Multi-Tool AI Chatbot
+
 An intelligent, modular, multi-tool AI chatbot built using LangGraph, LangChain, and Streamlit, featuring persistent conversation threads, multiple tools, and a scalable tool-node architecture.
 
-📌 Overview
+📌 Overview:-
+
 This project is a production-ready AI chatbot built with LangGraph, designed to handle multi-turn conversations while dynamically using different tools such as:
 🔍 DuckDuckGo Web Search
 📈 Live Stock Price Fetcher
@@ -46,44 +48,44 @@ User-friendly UI with multi-session support.
                  │   LangGraph Engine   │
                  └─────────┬───────────┘
                            │
-                           
      ┌──────────────┬───────────────┬──────────────┐
      │              │               │              │
 
 ┌────▼─────┐  ┌─────▼─────┐  ┌──────▼─────┐  ┌─────▼────────┐
 │ LLM Node │  │ Search Tool│  │Stock Tool  │  │ Calculator    │
-
 └────▲─────┘  └─────▲─────┘  └──────▲─────┘  └─────▲────────┘
      │              │               │              │
      
      └──────────────┴───────────────┴──────────────┘
                            │
-                           
                ┌───────────▼───────────┐
                │   Response Builder     │
-               
                └───────────┬───────────┘
                            │
-                           
                ┌───────────▼───────────┐
                │ Streamlit Frontend UI │
-               
                └────────────────────────┘
 
 
 🛠 Tech Stack
 
 Languages
+
 Python
 
 Core Frameworks
+
 LangGraph
+
 LangChain
+
 Streamlit
 
 Tools Used
 DuckDuckGo Search API
+
 Yahoo Finance API / Stock API
+
 SQLite (Persistent threads)
 
 AI Models
@@ -152,12 +154,16 @@ Add voice input/output capabilities
 
 🤝 Contributing
 Pull requests are welcome.
+
 For major changes, please open an issue first to discuss what you would like to change.
 
 📬 Contact
 Developer: Anmol Asija
+
 📧 Email: anmolasija243@gmail.com
+
 🔗 LinkedIn: https://www.linkedin.com/in/anmol-asija-991748289
+
 
 
 
