@@ -64,17 +64,25 @@ User-friendly UI with multi-session support.
 
 
 🛠 Tech Stack
+
 Languages
+
 Python
 
 Core Frameworks
+
 LangGraph
+
 LangChain
+
 Streamlit
 
 Tools Used
+
 DuckDuckGo Search API
+
 Yahoo Finance API / Stock API
+
 SQLite (Persistent threads)
 
 AI Models
@@ -131,4 +139,5 @@ For major changes, please open an issue first to discuss what you would like to 
 Developer: Anmol Asija
 📧 Email: anmolasija243@gmail.com
 🔗 LinkedIn: https://www.linkedin.com/in/anmol-asija-991748289
+
 
