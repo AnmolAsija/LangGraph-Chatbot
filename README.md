@@ -1,8 +1,8 @@
-🚀 LangGraph Multi-Tool AI Chatbot
+# 🚀 LangGraph Multi-Tool AI Chatbot
 
 An intelligent, modular, multi-tool AI chatbot built using LangGraph, LangChain, and Streamlit, featuring persistent conversation threads, multiple tools, and a scalable tool-node architecture.
 
-📌 Overview:-
+# 📌 Overview:-
 
 This project is a production-ready AI chatbot built with LangGraph, designed to handle multi-turn conversations while dynamically using different tools such as:
 🔍 DuckDuckGo Web Search
@@ -16,7 +16,7 @@ Multiple chat sessions
 Persistent threads
 Smooth UI for interacting with all tools
 
-✨ Features
+# ✨ Features
 🧠 1. Multi-turn AI Chat
 Maintains long conversations with context using thread IDs.
 
@@ -38,36 +38,32 @@ Performs numeric evaluations through a safe calculator function.
 🎨 7. Streamlit Frontend
 User-friendly UI with multi-session support.
 
-🏗 Architecture
+# 🏗 Architecture
 
-                 ┌──────────────────┐
-                 │   User Input      │
-                 └─────────┬────────┘
-                           │
-                 ┌─────────▼───────────┐
-                 │   LangGraph Engine   │
-                 └─────────┬───────────┘
-                           │
-     ┌──────────────┬───────────────┬──────────────┐
-     │              │               │              │
+                        ┌──────────────────┐
+             │   User Input      │
+             └─────────┬────────┘
+                       │
+             ┌─────────▼───────────┐
+             │   LangGraph Engine   │
+             └─────────┬───────────┘
+                       │
+ ┌──────────────┬───────────────┬──────────────┐
+ │              │               │              │
+┌────▼─────┐ ┌─────▼─────┐ ┌──────▼─────┐ ┌─────▼────────┐ │ LLM Node │ │ Search Tool│ │Stock Tool │ │ Calculator │ └────▲─────┘ └─────▲─────┘ └──────▲─────┘ └─────▲────────┘ │ │ │ │
 
-┌────▼─────┐  ┌─────▼─────┐  ┌──────▼─────┐  ┌─────▼────────┐
-│ LLM Node │  │ Search Tool│  │Stock Tool  │  │ Calculator    │
-└────▲─────┘  └─────▲─────┘  └──────▲─────┘  └─────▲────────┘
-     │              │               │              │
-     
-     └──────────────┴───────────────┴──────────────┘
-                           │
-               ┌───────────▼───────────┐
-               │   Response Builder     │
-               └───────────┬───────────┘
-                           │
-               ┌───────────▼───────────┐
-               │ Streamlit Frontend UI │
-               └────────────────────────┘
+ └──────────────┴───────────────┴──────────────┘
+                       │
+           ┌───────────▼───────────┐
+           │   Response Builder     │
+           └───────────┬───────────┘
+                       │
+           ┌───────────▼───────────┐
+           │ Streamlit Frontend UI │
+           └────────────────────────┘
 
 
-🛠 Tech Stack
+# 🛠 Tech Stack
 
 Languages
 
@@ -100,7 +96,7 @@ HuggingFace LLMs
 (or any model supported by LangChain)
 
 
-📁 Project Structure
+# 📁 Project Structure
 LangGraph-Chatbot/
 │
 ├── app.py                 # Streamlit UI
@@ -128,7 +124,7 @@ LangGraph-Chatbot/
 
 └── requirements.txt       
 
-⚙️ Installation
+# ⚙️ Installation
 1. Clone the repository
 git clone https://github.com/AnmolAsija/LangGraph-Chatbot.git
 cd LangGraph-Chatbot
@@ -141,7 +137,7 @@ streamlit run app.py
 
 
 
-🚧 Future Improvements
+# 🚧 Future Improvements
 Add more advanced tools (weather, news, calculator improvements)
 
 Add authentication for users
@@ -152,17 +148,18 @@ Add vector memory for long-term conversation
 
 Add voice input/output capabilities
 
-🤝 Contributing
+# 🤝 Contributing
 Pull requests are welcome.
 
 For major changes, please open an issue first to discuss what you would like to change.
 
-📬 Contact
+# 📬 Contact
 Developer: Anmol Asija
 
 📧 Email: anmolasija243@gmail.com
 
 🔗 LinkedIn: https://www.linkedin.com/in/anmol-asija-991748289
+
 
 
 
